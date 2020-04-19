@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION gds.insert_salle(
-        un_nom VARCHAR(200), 
+        un_nom character varying(250), 
         un_nb_personne_max integer)
     RETURNS gds.salle AS $$
         -- insertion de la salle
